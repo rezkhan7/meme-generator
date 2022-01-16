@@ -19,7 +19,7 @@ let Meme = ()=>{
                 <input type = "text" className = "form--input" placeholder="Bottom Text"></input>
                 <button className = "form--button" onClick = {getMemeImage}>Get a new meme image 🖼</button>
             </div>
-            <img src = {imgSrc}></img>
+            <img src = {imgSrc} className = "meme--image"></img>
         </main>
     )
 }
